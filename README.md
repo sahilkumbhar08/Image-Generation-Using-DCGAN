@@ -77,7 +77,6 @@ Training logs and generated images will be saved in the `outputs/` folder.
   - Transpose Conv layers
   - BatchNorm
   - ReLU activations
-  - Tanh output layer
 
 - **Discriminator**:
   - Conv layers
@@ -86,13 +85,6 @@ Training logs and generated images will be saved in the `outputs/` folder.
 
 ---
 
-## 🖼️ Sample Results
-
-| Epoch 1 | Epoch 25 | Epoch 100 |
-|--------|----------|-----------|
-| ![](outputs/sample_epoch_1.png) | ![](outputs/sample_epoch_25.png) | ![](outputs/sample_epoch_100.png) |
-
----
 
 ## 🛠️ Future Improvements
 
@@ -120,8 +112,6 @@ This project is licensed under the [MIT License](LICENSE).
 - PyTorch Tutorials
 - CelebA Dataset by MMLAB
 ```
-
----
 
 Let me know if you'd like:
 - A version for **TensorFlow** instead of PyTorch
