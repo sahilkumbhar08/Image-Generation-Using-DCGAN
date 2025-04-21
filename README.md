@@ -21,8 +21,6 @@ The networks train simultaneously in a minimax game setup until the generator pr
 dcgan-image-generation/
 ├── data/                 # Dataset (e.g., CelebA, MNIST)
 ├── models/               # Generator and Discriminator classes
-├── outputs/              # Generated images, GIFs, and saved models
-├── utils/                # Helper functions (e.g., weight init, visualization)
 ├── train.py              # Training loop for DCGAN
 ├── config.py             # Hyperparameters and training settings
 ├── requirements.txt      # Python dependencies
